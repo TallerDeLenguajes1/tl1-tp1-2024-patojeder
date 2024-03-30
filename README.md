@@ -21,21 +21,28 @@ El archivo .gitignore utiliza patrones simples para especificar qué archivos o 
 
 #### Ignorar archivos de compilación y ejecutables
 *.exe
+
 *.dll
+
 *.so
+
 *.dylib
+
 *.out
 
 #### Ignorar archivos de configuración de IDEs
 .vscode/
+
 .idea/
 
 #### Ignorar archivos de dependencias generados
 node_modules/
+
 vendor/
 
 #### Ignorar archivos temporales
 *.tmp
+
 *.log
 
 Estos son solo ejemplos y pueden variar según las necesidades del proyecto. Cada línea en el archivo **.gitignore** especifica un patrón para archivos o directorios que se deben ignorar.
@@ -49,4 +56,10 @@ para su uso se pueden seguir los siguientes pasos:
 4. Abre el nuevo archivo 
 5. Agrega las rutas del o de los archivos que quieres que git ignore (ej ignorado.txt), cada una en una línea nueva.
 6. Guarda y cierra el archivo
+
+
 Esto asegurará que el archivo ignorado.txt no sea rastreado por Git y se ignore en el repositorio.
+
+# Resolucion de Pregunta, punto 4 apartado g.
+
+En los puntos 2 y 3 se obtiene el mismo resultado, ya que en el punto 2, el valor que almacena la variable **puntero**, es la direccion de memoria correspondiente a la variable **numero**, cuyo direccion de memoria, se imprime en el puto 3. Dicho valor es distinto al punto 4, ya que la variable puntero, al ser una variable, tiene su propia direccion de memoria, independiente del valor que almacene (que en este caso es la direccion dememoria de la variable **numero**)
